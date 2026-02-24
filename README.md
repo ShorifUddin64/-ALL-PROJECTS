@@ -1,4 +1,4 @@
-ManualLibrary_Corrected
+Manual Lbrary Corrected
 # Manual Library Management System 📚
 
 This is a professional Library Management System built with "Java Swing". It helps to manage books and user records easily.
