@@ -106,7 +106,7 @@ public class ManualLibrary_Corrected extends JFrame {
     books.add(new Book("Pride and Prejudice", "Jane Austen", 9.99, 20, "Romance"));
     books.add(new Book("The Catcher in the Rye", "J.D. Salinger", 13.50, 12, "Fiction"));
     books.add(new Book("Dune", "Frank Herbert", 16.99, 7, "Science Fiction"));
-    books.add(new Book("The Martian", "Andy Weir", 13.99, 9, "Science Fiction"));
+    books.add(new Book("The Martian", "Andy Weir", 13.98, 9, "Science Fiction"));
     books.add(new Book("Gone Girl", "Gillian Flynn", 14.99, 6, "Mystery"));
     books.add(new Book("Steve Jobs", "Walter Isaacson", 18.99, 5, "Biography"));
     books.add(new Book("Sapiens", "Yuval Noah Harari", 17.50, 11, "History"));
@@ -1761,5 +1761,6 @@ private final class BookButtonEditor extends DefaultCellEditor {
     });
   }
 }
+
 
 
