@@ -310,7 +310,7 @@ public class ManualLibrary_Corrected extends JFrame {
         new EmptyBorder(15, 0, 15, 0)
     ));
 
-    JLabel footerLabel = new JLabel("© 2024 MnualLibrary - Read Your Dream Books");
+    JLabel footerLabel = new JLabel("© 2026 MnualLibrary - Read Your Dream Books");
     footerLabel.setFont(new Font("Segoe UI", Font.PLAIN, 12));
     footerLabel.setForeground(TEXT_SECONDARY);
     footerPanel.add(footerLabel);
@@ -1761,4 +1761,5 @@ private final class BookButtonEditor extends DefaultCellEditor {
     });
   }
 }
+
 
