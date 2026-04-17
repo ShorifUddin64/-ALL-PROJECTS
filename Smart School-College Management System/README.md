@@ -16,4 +16,4 @@ This is a comprehensive management system built with **Java**. It helps to manag
 ## 🛠 Tech Stack:
 * **Language:** Java
 * **IDE:** Visual Studio Code
-* **Version Control:** Git & GitHub
+* **Version Control:** 
