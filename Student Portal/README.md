@@ -12,4 +12,4 @@ This is a professional Student Portal built with "Java Swing". It helps to manag
 
 📷 Screenshots:
 -------------------------------------------------------
-Screenshot 2026-05-17 205856.png
+Screenshot 2026-05-17 215143.png
