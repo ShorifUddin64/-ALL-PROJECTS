@@ -2,7 +2,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
- 
 // ==========================
 // 1. Student Data Model Class
 // ==========================
@@ -36,20 +35,17 @@ class Student {
         return section;
     }
 }
- 
 // ==========================
 // 2. Student Operations Class
 // ==========================
 class StudentOperations {
  
     ArrayList<Student> list = new ArrayList<>();
- 
     // Add Student
     public String add(String name, String course, int credit, String section) {
         list.add(new Student(name, course, credit, section));
         return "Status: Student added successfully!";
     }
- 
     // Search Student By Course
     public String searchByCourse(String courseName) {
         String result = "";
@@ -67,7 +63,6 @@ class StudentOperations {
         if (result.equals("")) {
             return "Status: Course not found!";
         }
- 
         return result;
     }
  
