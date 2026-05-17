@@ -1,0 +1,18 @@
+📑 Project Overview
+Purpose: A Java Swing desktop app to manage student records (Name, Course, Section, Credits).
+Storage: Uses an ArrayList to save data temporarily in memory.
+
+💻 Code Breakdown (3 Main Parts)
+1. Student (Data Model)
+Stores student info (name, course, credit, section) using a constructor and Getter methods.
+2. StudentOperations (Logic)
+ADD: Saves a new student to the ArrayList.
+SEARCH: Finds student details using the course name.
+UPDATE: Modifies a student's credits and section by matching the course.
+DELETE: Removes a record based on the course name.
+DISPLAY ALL: Shows all saved records in a clean text format.
+
+3. Studentportal (GUI & Main)
+UI Layout: Uses JFrame with absolute layout (null) to position text fields, labels, and buttons.
+Events: Implements ActionListener to handle button clicks (Add, Search, Update, Delete, Display).
+Error Handling: Uses try-catch to stop crashes if letters are typed into the Credit field instead of numbers.
