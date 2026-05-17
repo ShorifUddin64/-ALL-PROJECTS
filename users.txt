@@ -1,4 +1,0 @@
-admin:admin123
-Shorif uddin:@Shorif64
-SHORIF UDDIN:@Shorif64
-user:password
