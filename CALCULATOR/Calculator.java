@@ -8,7 +8,11 @@ public class Calculator {
     JFrame frame = new JFrame("Calculator");
 
     Calculator() {
-        frame.setvisible(true);
+        frame.setVisible(true);
         frame.setSize(360, 540);
+        frame.setLocationRelativeTo(null);
+        frame.setResizable(false);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLayout(new BorderLayout());
     }
 }
