@@ -43,7 +43,7 @@ The system prioritizes security through a dedicated **User Authentication** logi
 <div align="center">
 
   <img src="./Screenshot 2026-07-20 211135.png" width="45%" alt="Login Screen" />
-  <img src="./Screenshot%202026-02-24%20214957.png" width="45%" alt="Dashboard" />
+  <img src="./Screenshot 2026-07-20 211355.png" width="45%" alt="Dashboard" />
 
   <br/><br/>
 
