@@ -13,56 +13,40 @@
 
 ---
 
-## 📖 Overview
+## 📖 Overview & Web Preview
 
-This **Library Management System** is a robust desktop application crafted with **Java Swing** and **AWT** to modernize traditional library workflows. It offers an intuitive platform for administrators to manage book collections and user data with ease.
-
-The system prioritizes security through a dedicated **User Authentication** login module. Visually, the application stands out with a professional **Material Design** aesthetic, utilizing custom color palettes and sophisticated typography to enhance readability and seamless experience.
-
----
-
-## 🚀 Key Features
-
-* 🔐 **User Authentication:** Secure login system for administrators.
-* 📚 **Book Management:** Effortlessly add, update, delete, and view book records.
-* 👥 **User Records:** Manage member data and library access.
-* 🎨 **Modern UI:** Clean, responsive design with custom color palettes and typography.
-
----
-
-## 🛠️ Tech Stack & Tools
-
-* **Language:** Java
-* **GUI Framework:** Java Swing & AWT
-* **IDE:** VS Code / NetBeans / Eclipse
+<table width="100%">
+  <tr>
+    <td>
+      <h3>System Highlights</h3>
+      <p>This system modernizes traditional library workflows with Java Swing and AWT. Features secure login authentication and modern material UI design.</p>
+      <ul>
+        <li>🔐 <b>User Authentication:</b> Secure admin login</li>
+        <li>📚 <b>Book Management:</b> Add, update, and delete records</li>
+        <li>👥 <b>User Records:</b> Manage member access easily</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
-<div align="center">
 
-  ### 🌐 **Live Web Preview**
-  
-  [![Live Demo](https://img.shields.io/badge/🚀_View_Live_App-Click_Here-brightgreen?style=for-the-badge&logo=githubpages&logoColor=white)](https://ShorifUddin64.github.io/-ALL-PROJECTS/ManualLibrary/ManualLibrary.html)
-
-  <sub><i>Click above to view the live HTML preview in your browser.</i></sub>
-
-</div>
----
-## 📸 Application Screenshots
+## 📸 Interface Screenshots
 
 <div align="center">
 
-  <img src="./Screenshot 2026-07-20 211135.png" width="45%" alt="Login Screen" />
-  <img src="./Screenshot 2026-07-20 211355.png" width="45%" alt="Dashboard" />
+  <img src="./Screenshot%202026-07-20%20211135.png" width="48%" alt="Homepage" />
+  <img src="./Screenshot%202026-07-20%20211355.png" width="48%" alt="Books" />
 
   <br/><br/>
 
-  <img src="./Screenshot 2026-07-20 211418.png" width="45%" alt="Book Management" />
-  <img src="./Screenshot 2026-07-20 211511.png" width="45%" alt="Member Records" />
+  <img src="./Screenshot%202026-07-20%20211418.png" width="48%" alt="Member" />
+  <img src="./Screenshot%202026-07-20%20211511.png" width="48%" alt="Category" />
 
 </div>
 
 ---
 
 <div align="center">
-  <sub>👥 Group Project | Built with Java</sub>
+  <sub>👥 Group Project | Built with Java & HTML Documentation</sub>
 </div>
