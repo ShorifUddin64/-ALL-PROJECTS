@@ -41,7 +41,7 @@ The system prioritizes security through a dedicated **User Authentication** logi
 
   ### 🌐 **Live Project Preview**
   
-  [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Click_Here_to_View-success?style=for-the-badge&logo=replit&logoColor=white)](https://library-manager--Shorif64.replit.app)
+  [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Click_Here_to_View-success?style=for-the-badge&logo=replit&logoColor=white)](https://6587eb94-5549-497f-8f88-35c774dd0e29-00-17d6ua1vppgmj.sisko.replit.dev/)
 
 </div>
 ## 📸 Application Screenshots
