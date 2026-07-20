@@ -17,7 +17,7 @@ import javax.swing.table.AbstractTableModel;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableCellRenderer;
 
-public class ManualLibrary_Corrected extends JFrame {
+public class ManualLibrary extends JFrame {
 
   // We are using this to color the Library Environment
   private final Color PRIMARY_COLOR = new Color(0x29AB87);    // Dark cyan - lime green
@@ -61,7 +61,7 @@ public class ManualLibrary_Corrected extends JFrame {
 
   private final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
-  public ManualLibrary_Corrected() {
+  public ManualLibrary() {
     loadUserCredentials();
     setTitle("ManualLibrary - Read Your Dream Books");
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -952,7 +952,7 @@ private final class BookButtonEditor extends DefaultCellEditor {
 
     private void borrowBook() {
       if (!loggedIn) {
-        JOptionPane.showMessageDialog(ManualLibrary_Corrected.this, "Please login first to borrow books.", "Login Required", JOptionPane.WARNING_MESSAGE);
+        JOptionPane.showMessageDialog(ManualLibrary.this, "Please login first to borrow books.", "Login Required", JOptionPane.WARNING_MESSAGE);
         return;
       }
       Book book = bookTableModel.getBookAt(currentRow);
@@ -991,7 +991,7 @@ private final class BookButtonEditor extends DefaultCellEditor {
           public void changedUpdate(DocumentEvent e) { updateTotal(); }
         });
 
-        int result = JOptionPane.showConfirmDialog(ManualLibrary_Corrected.this, panel, 
+        int result = JOptionPane.showConfirmDialog(ManualLibrary.this, panel, 
             "Borrow Book - " + book.getTitle(), JOptionPane.OK_CANCEL_OPTION);
         
         if (result == JOptionPane.OK_OPTION) {
@@ -1004,30 +1004,30 @@ private final class BookButtonEditor extends DefaultCellEditor {
               bookTableModel.fireTableDataChanged();
               updateCartInfo();
               updateHistoryTable();
-              JOptionPane.showMessageDialog(ManualLibrary_Corrected.this, 
+              JOptionPane.showMessageDialog(ManualLibrary.this, 
                   String.format("Book borrowed successfully!\nTotal charge: $%.2f", book.getPrice() * qty), 
                   "Success", JOptionPane.INFORMATION_MESSAGE);
             } else {
-              JOptionPane.showMessageDialog(ManualLibrary_Corrected.this, "Invalid quantity!", "Error", JOptionPane.ERROR_MESSAGE);
+              JOptionPane.showMessageDialog(ManualLibrary.this, "Invalid quantity!", "Error", JOptionPane.ERROR_MESSAGE);
             }
           } catch (NumberFormatException e) {
-            JOptionPane.showMessageDialog(ManualLibrary_Corrected.this, "Please enter a valid number!", "Error", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(ManualLibrary.this, "Please enter a valid number!", "Error", JOptionPane.ERROR_MESSAGE);
           }
         }
       } else {
-        JOptionPane.showMessageDialog(ManualLibrary_Corrected.this, "This book is out of stock!", "Out of Stock", JOptionPane.WARNING_MESSAGE);
+        JOptionPane.showMessageDialog(ManualLibrary.this, "This book is out of stock!", "Out of Stock", JOptionPane.WARNING_MESSAGE);
       }
       fireEditingStopped();
     }
 
     private void returnBook() {
       if (!loggedIn) {
-        JOptionPane.showMessageDialog(ManualLibrary_Corrected.this, "Please login first to return books.", "Login Required", JOptionPane.WARNING_MESSAGE);
+        JOptionPane.showMessageDialog(ManualLibrary.this, "Please login first to return books.", "Login Required", JOptionPane.WARNING_MESSAGE);
         return;
       }
       Book book = bookTableModel.getBookAt(currentRow);
       if (book.getBorrowedQuantity() > 0) {
-        String qtyStr = JOptionPane.showInputDialog(ManualLibrary_Corrected.this, "Enter quantity to return:", "1");
+        String qtyStr = JOptionPane.showInputDialog(ManualLibrary.this, "Enter quantity to return:", "1");
         if (qtyStr != null && !qtyStr.trim().isEmpty()) {
           try {
             int qty = Integer.parseInt(qtyStr.trim());
@@ -1038,16 +1038,16 @@ private final class BookButtonEditor extends DefaultCellEditor {
               bookTableModel.fireTableDataChanged();
               updateCartInfo();
               updateHistoryTable();
-              JOptionPane.showMessageDialog(ManualLibrary_Corrected.this, "Book returned successfully!", "Success", JOptionPane.INFORMATION_MESSAGE);
+              JOptionPane.showMessageDialog(ManualLibrary.this, "Book returned successfully!", "Success", JOptionPane.INFORMATION_MESSAGE);
             } else {
-              JOptionPane.showMessageDialog(ManualLibrary_Corrected.this, "Invalid quantity!", "Error", JOptionPane.ERROR_MESSAGE);
+              JOptionPane.showMessageDialog(ManualLibrary.this, "Invalid quantity!", "Error", JOptionPane.ERROR_MESSAGE);
             }
           } catch (NumberFormatException e) {
-            JOptionPane.showMessageDialog(ManualLibrary_Corrected.this, "Please enter a valid number!", "Error", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(ManualLibrary.this, "Please enter a valid number!", "Error", JOptionPane.ERROR_MESSAGE);
           }
         }
       } else {
-        JOptionPane.showMessageDialog(ManualLibrary_Corrected.this, "No borrowed copies to return!", "No Borrowed Books", JOptionPane.WARNING_MESSAGE);
+        JOptionPane.showMessageDialog(ManualLibrary.this, "No borrowed copies to return!", "No Borrowed Books", JOptionPane.WARNING_MESSAGE);
       }
       fireEditingStopped();
     }
@@ -1059,7 +1059,7 @@ private final class BookButtonEditor extends DefaultCellEditor {
     }
 
     private void deleteBook() {
-      int result = JOptionPane.showConfirmDialog(ManualLibrary_Corrected.this, 
+      int result = JOptionPane.showConfirmDialog(ManualLibrary.this, 
           "Are you sure you want to delete this book?", "Confirm Delete", 
           JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE);
       if (result == JOptionPane.YES_OPTION) {
@@ -1067,7 +1067,7 @@ private final class BookButtonEditor extends DefaultCellEditor {
         books.remove(book);
         bookTableModel.fireTableDataChanged();
         updateCartInfo();
-        JOptionPane.showMessageDialog(ManualLibrary_Corrected.this, 
+        JOptionPane.showMessageDialog(ManualLibrary.this, 
             "Book deleted successfully!", "Success", JOptionPane.INFORMATION_MESSAGE);
       }
       fireEditingStopped();
@@ -1111,7 +1111,7 @@ private final class BookButtonEditor extends DefaultCellEditor {
 
     private void editCategory() {
       String oldCategory = categories.get(currentRow);
-      String newCategory = JOptionPane.showInputDialog(ManualLibrary_Corrected.this, "Enter new category name:", oldCategory);
+      String newCategory = JOptionPane.showInputDialog(ManualLibrary.this, "Enter new category name:", oldCategory);
       if (newCategory != null && !newCategory.trim().isEmpty() && !newCategory.equals(oldCategory)) {
         // Update books with this category
         for (Book book : books) {
@@ -1123,7 +1123,7 @@ private final class BookButtonEditor extends DefaultCellEditor {
         categoryTableModel.fireTableDataChanged();
         bookTableModel.fireTableDataChanged();
         updateCategoryFilter();
-        JOptionPane.showMessageDialog(ManualLibrary_Corrected.this, "Category updated successfully!", "Success", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(ManualLibrary.this, "Category updated successfully!", "Success", JOptionPane.INFORMATION_MESSAGE);
       }
       fireEditingStopped();
     }
@@ -1133,18 +1133,18 @@ private final class BookButtonEditor extends DefaultCellEditor {
       long bookCount = books.stream().filter(book -> book.getCategory().equals(category)).count();
       
       if (bookCount > 0) {
-        JOptionPane.showMessageDialog(ManualLibrary_Corrected.this, 
+        JOptionPane.showMessageDialog(ManualLibrary.this, 
             "Cannot delete category. There are " + bookCount + " books in this category.", 
             "Cannot Delete", JOptionPane.WARNING_MESSAGE);
       } else {
-        int result = JOptionPane.showConfirmDialog(ManualLibrary_Corrected.this, 
+        int result = JOptionPane.showConfirmDialog(ManualLibrary.this, 
             "Are you sure you want to delete this category?", "Confirm Delete", 
             JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE);
         if (result == JOptionPane.YES_OPTION) {
           categories.remove(currentRow);
           categoryTableModel.fireTableDataChanged();
           updateCategoryFilter();
-          JOptionPane.showMessageDialog(ManualLibrary_Corrected.this, "Category deleted successfully!", "Success", JOptionPane.INFORMATION_MESSAGE);
+          JOptionPane.showMessageDialog(ManualLibrary.this, "Category deleted successfully!", "Success", JOptionPane.INFORMATION_MESSAGE);
         }
       }
       fireEditingStopped();
@@ -1192,13 +1192,13 @@ private final class BookButtonEditor extends DefaultCellEditor {
     }
 
     private void deleteMember() {
-      int result = JOptionPane.showConfirmDialog(ManualLibrary_Corrected.this, 
+      int result = JOptionPane.showConfirmDialog(ManualLibrary.this, 
           "Are you sure you want to delete this member?", "Confirm Delete", 
           JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE);
       if (result == JOptionPane.YES_OPTION) {
         members.remove(currentRow);
         memberTableModel.fireTableDataChanged();
-        JOptionPane.showMessageDialog(ManualLibrary_Corrected.this, "Member deleted successfully!", "Success", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(ManualLibrary.this, "Member deleted successfully!", "Success", JOptionPane.INFORMATION_MESSAGE);
       }
       fireEditingStopped();
     }
@@ -1757,7 +1757,7 @@ private final class BookButtonEditor extends DefaultCellEditor {
         e.printStackTrace();
       }
       
-      new ManualLibrary_Corrected().setVisible(true);
+      new ManualLibrary().setVisible(true);
     });
   }
 }
