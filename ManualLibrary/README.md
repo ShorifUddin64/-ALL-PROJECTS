@@ -44,7 +44,7 @@ The system prioritizes security through a dedicated **User Authentication** logi
 
 | Platform | Status | Live Link |
 | :--- | :---: | :--- |
-| **Replit Deployment** | ![Active](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square) | 🔗 [Try Library Manager Live](https://6587eb94-5549-497f-8f88-35c774dd0e29-00-17d6ua1vppgmj.sisko.replit.dev/) |
+| **Replit Deployment** | ![Active](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square) | 🔗 [Try Library Manager Live](https://img.shields.io/badge/Live_Demo-Open_Application-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://6587eb94-5549-497f-8f88-35c774dd0e29-00-17d6ua1vppgmj.sisko.replit.dev/) |
 
 ---
 ## 📸 Application Screenshots
