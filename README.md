@@ -1,41 +1,40 @@
 <div align="center">
 
-  # ⚡ SOFTWARE ENGINEERING & SYSTEM ARCHITECTURE HUB ⚡
-  ### *A Premium Collection of Object-Oriented Software Solutions & Enterprise Tools*
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00F2FE&center=true&vCenter=true&width=600&height=70&lines=CENTRAL+SOFTWARE+REPOSITORY;OBJECT-ORIENTED+SYSTEMS;MULTI-MODULE+DESKTOP+SUITE" alt="Typing Banner" />
 
   <p align="center">
-    <a href="https://github.com/ShorifUddin64">
-      <img src="https://img.shields.io/badge/Developer-ShorifUddin64-purple?style=for-the-badge&logo=github&logoColor=white" alt="Developer" />
-    </a>
-    <img src="https://img.shields.io/badge/Core_Stack-Java_%7C_OOP_%7C_GUI-blue?style=for-the-badge&logo=openjdk&logoColor=white" alt="Core Stack" />
-    <img src="https://img.shields.io/badge/Architecture-Modular-orange?style=for-the-badge" alt="Architecture" />
-    <img src="https://img.shields.io/badge/Status-Active_Repository-brightgreen?style=for-the-badge&logo=git&logoColor=white" alt="Status" />
+    <code><b>ENTERPRISE-GRADE ARCHITECTURE</b> • <b>MODULAR DESIGN</b> • <b>CLEAN CODEBASE</b></code>
   </p>
 
-  <br/>
-
-  <p><b>👇 EXPLORE INDIVIDUAL MODULES FROM THE REPOSITORY DIRECTORY ABOVE 👇</b></p>
-  <p><i>Navigate into any root folder above to access complete source code, technical documentations, and UI visual assets.</i></p>
+  <p align="center">
+    <img src="https://img.shields.io/badge/Core-Java-00F2FE?style=for-the-badge&logo=openjdk&logoColor=black" />
+    <img src="https://img.shields.io/badge/UI-Custom_Swing_%26_AWT-4FACFE?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Repository-Monorepo-000000?style=for-the-badge&logo=github" />
+  </p>
 
 </div>
 
----
+<br/>
 
-## 🎯 Repository Overview & Purpose
-
-Welcome to my primary software development repository. This space functions as a **Centralized Multi-Project Hub**, showcasing engineered solutions designed with clean architecture, object-oriented design principles, and intuitive user interfaces.
-
-<blockquote align="center">
-  <b>💡 For Recruiters & Engineers:</b> Each directory in the file structure above represents an isolated, fully independent application module. Click on any directory above to inspect the specific codebase, architecture, and features.
-</blockquote>
+> ### 📂 DIRECTORY NAVIGATION GUIDE
+> **সরাসরি সোর্স কোড ও ফিচারসমূহ দেখতে ওপরের ফোল্ডার ডিরেক্টরিতে ভিজিট করুন।**  
+> *Each directory residing at the top of this repository contains an isolated, production-ready desktop application module with dedicated visual documentations.*
 
 ---
 
-## 🏛️ System Architecture & Design Standards
+### ⚡ Architectural Highlights
 
-```text
-📦 ROOT REPOSITORY
- ┣ 📂 [Module 1]  ──► Core Utility / Algorithmic Engine
- ┣ 📂 [Module 2]  ──► Database-Driven Management Platform
- ┣ 📂 [Module 3]  ──► Enterprise Portal Architecture
- ┗ 📂 [Module 4]  ──► Interactive Desktop Application
+* 🔷 **Standalone Isolation:** প্রতিটি মডিউল একটি সম্পূর্ণ স্বাধীন এবং স্বাবলম্বী আর্কিটেকচারে তৈরি।
+* 🔷 **User Experience First:** প্রতিটি সিস্টেমে স্ট্যান্ডার্ড টাইপোগ্রাফি ও থিম ব্যবহার করা হয়েছে।
+* 🔷 **Robust Functionality:** ডাটা প্রসেসিং, সিকিউর অথেন্টিকেশন এবং অ্যাডভান্সড ডিরেক্টরি স্ট্রাকচার।
+
+---
+
+### 🛠️ Core Technology Stack
+
+```yaml
+Programming Language : Java (JDK 8+)
+GUI Frameworks       : Java Swing, Abstract Window Toolkit (AWT)
+Design Methodology   : Object-Oriented Programming (OOP)
+Development Suite    : VS Code / NetBeans / Eclipse
+Version Control      : Git & GitHub Multi-Module Structure
