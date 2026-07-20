@@ -47,7 +47,7 @@ The system prioritizes security through a dedicated **User Authentication** logi
 
   <br/><br/>
 
-  <img src="./Screenshot%202026-02-24%20215019.png" width="45%" alt="Book Management" />
+  <img src="./Screenshot 2026-07-20 211418.png" width="45%" alt="Book Management" />
   <img src="./Screenshot%202026-02-24%20215039.png" width="45%" alt="Member Records" />
 
 </div>
