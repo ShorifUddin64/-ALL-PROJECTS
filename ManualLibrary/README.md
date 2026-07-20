@@ -38,12 +38,14 @@ The system prioritizes security through a dedicated **User Authentication** logi
 
 ---
 ---
+### 🌐 Live Interactive Application
 
-### ⚡ Try It Live
-Experiencing the application is just one click away!
+| Feature | Status | Quick Access |
+| :--- | :---: | :--- |
+| **Browser Demo** | ![Active](https://img.shields.io/badge/Status-Online-brightgreen?style=flat-square) | 👉 [**Launch Library Manager**](https://6587eb94-5549-497f-8f88-35c774dd0e29-00-17d6ua1vppgmj.sisko.replit.dev/) |
+| **Environment** | USE TO AI* |
 
-[![Live App](https://img.shields.io/badge/Live_Demo-Open_Application-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://6587eb94-5549-497f-8f88-35c774dd0e29-00-17d6ua1vppgmj.sisko.replit.dev/)
-
+> 💡 **Note for Recruiters:** Click the link above to interact with the full-stack application directly in your browser without any setup.
 ---
 ## 📸 Application Screenshots
 
