@@ -37,12 +37,15 @@ The system prioritizes security through a dedicated **User Authentication** logi
 * **IDE:** VS Code / NetBeans / Eclipse
 
 ---
----
-> ### 🚀 **Live Demo Available!**
-> 
-> You can test and interact with this application directly in your browser without setting up a local environment.
-> 
-> 👉 **[Click Here to Open Live Demo App](ManualLibrary.html)**
+<div align="center">
+
+  ### 🌐 **Live Web Preview**
+  
+  [![Live Demo](https://img.shields.io/badge/🚀_View_Live_App-Click_Here-brightgreen?style=for-the-badge&logo=githubpages&logoColor=white)](https://ShorifUddin64.github.io/-ALL-PROJECTS/ManualLibrary/ManualLibrary.html)
+
+  <sub><i>Click above to view the live HTML preview in your browser.</i></sub>
+
+</div>
 ---
 ## 📸 Application Screenshots
 
