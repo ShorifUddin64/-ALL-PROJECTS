@@ -39,11 +39,11 @@ The system prioritizes security through a dedicated **User Authentication** logi
 ---
 <div align="center">
 
-  ### 🌐 **Live Project Preview**
-  
-  [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Click_Here_to_View-success?style=for-the-badge&logo=replit&logoColor=white)](https://6587eb94-5549-497f-8f88-35c774dd0e29-00-17d6ua1vppgmj.sisko.replit.dev/)
-
-</div>
+ > ### 🚀 **Live Demo Available!**
+> 
+> You can test and interact with this application directly in your browser without setting up a local environment.
+> 
+> 👉 **[Click Here to Open Live Demo App](https://6587eb94-5549-497f-8f88-35c774dd0e29-00-17d6ua1vppgmj.sisko.replit.dev/)**
 ## 📸 Application Screenshots
 
 <div align="center">
