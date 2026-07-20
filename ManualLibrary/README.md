@@ -38,14 +38,15 @@ The system prioritizes security through a dedicated **User Authentication** logi
 
 ---
 ---
-### 🌐 Live Interactive Application
+---
 
-| Feature | Status | Quick Access |
+### 🌐 **Live Interactive Demo**
+
+| Platform | Status | Live Link |
 | :--- | :---: | :--- |
-| **Browser Demo** | ![Active](https://img.shields.io/badge/Status-Online-brightgreen?style=flat-square) | 👉 [**Launch Library Manager**](https://6587eb94-5549-497f-8f88-35c774dd0e29-00-17d6ua1vppgmj.sisko.replit.dev/) |
-| **Environment** | USE TO AI* |
+| **Replit Deployment** | ![Active](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square) | 🔗 [Try Library Manager Live](https://library-manager--Shorif64.replit.app) |
 
-> 💡 **Note for Recruiters:** Click the link above to interact with the full-stack application directly in your browser without any setup.
+---
 ---
 ## 📸 Application Screenshots
 
