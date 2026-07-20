@@ -42,7 +42,7 @@ The system prioritizes security through a dedicated **User Authentication** logi
 > 
 > You can test and interact with this application directly in your browser without setting up a local environment.
 > 
-> 👉 **[Click Here to Open Live Demo App](https://library-manager--Shorif64.replit.app)**
+> 👉 **[Click Here to Open Live Demo App](ManualLibrary.html)**
 ---
 ## 📸 Application Screenshots
 
