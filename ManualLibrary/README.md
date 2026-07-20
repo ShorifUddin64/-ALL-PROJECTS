@@ -38,12 +38,11 @@ The system prioritizes security through a dedicated **User Authentication** logi
 
 ---
 ---
----
-> ### 🚀 Live Interactive Demo
+> ### 🚀 **Live Demo Available!**
 > 
-> [![Replit Demo](https://img.shields.io/badge/Run_Live_App-Replit-orange?style=for-the-badge&logo=replit&logoColor=white)](https://replit.com/@Shorif64/Library-Manager)
+> You can test and interact with this application directly in your browser without setting up a local environment.
 > 
-> **Note:** Click the link above and hit the **▶ Run** button to test the app live in your browser!
+> 👉 **[Click Here to Open Live Demo App](https://library-manager--Shorif64.replit.app)**
 ---
 ## 📸 Application Screenshots
 
