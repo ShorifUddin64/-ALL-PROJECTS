@@ -37,7 +37,13 @@ The system prioritizes security through a dedicated **User Authentication** logi
 * **IDE:** VS Code / NetBeans / Eclipse
 
 ---
+<div align="center">
 
+  ### 🌐 **Live Project Preview**
+  
+  [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Click_Here_to_View-success?style=for-the-badge&logo=replit&logoColor=white)](https://library-manager--Shorif64.replit.app)
+
+</div>
 ## 📸 Application Screenshots
 
 <div align="center">
