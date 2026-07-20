@@ -37,13 +37,14 @@ The system prioritizes security through a dedicated **User Authentication** logi
 * **IDE:** VS Code / NetBeans / Eclipse
 
 ---
-<div align="center">
+---
 
- > ### 🚀 **Live Demo Available!**
-> 
-> You can test and interact with this application directly in your browser without setting up a local environment.
-> 
-> 👉 **[Click Here to Open Live Demo App](https://6587eb94-5549-497f-8f88-35c774dd0e29-00-17d6ua1vppgmj.sisko.replit.dev/)**
+### ⚡ Try It Live
+Experiencing the application is just one click away!
+
+[![Live App](https://img.shields.io/badge/Live_Demo-Open_Application-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://6587eb94-5549-497f-8f88-35c774dd0e29-00-17d6ua1vppgmj.sisko.replit.dev/)
+
+---
 ## 📸 Application Screenshots
 
 <div align="center">
