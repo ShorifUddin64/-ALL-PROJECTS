@@ -1,4 +1,6 @@
 #include <iostream>
+#include <ctime>
+#include <iomanip>
 using namespace std;
 
 class Shope {
@@ -60,6 +62,16 @@ public:
 //class Payment { ... };
 
 //class BillCraft { ... };
+class Others{
+    public:
+    void Time() {
+        time_t now = time(0);
+        tm *ltm = localtime(&now);
+        cout << "time: " <<put_time(ltm, "%I:%M %P") <<endl;
+
+    }
+
+};
 class Finish {
     public:
     void printFinish() {
@@ -72,9 +84,11 @@ class Finish {
 
 int main() {
    Shope s;
+   Others o;
    s.printHeader();
    s.printFooter();
    Finish f;
    f.printFinish();
+   o.Time();
    return 0;
 }
