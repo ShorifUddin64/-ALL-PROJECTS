@@ -78,6 +78,7 @@ class Finish {
         cout << "==================================================" << endl;
         cout << "Note: NO REFUND/EXCHANGE after 3 days of purchase." << endl;
         cout << "Thank you for shopping with us!" << endl;
+         o.Time();
         cout << "Please come again!" << endl;
     }
 };
