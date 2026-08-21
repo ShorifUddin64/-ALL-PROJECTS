@@ -64,7 +64,7 @@ public:
 //class BillCraft { ... };
 class Others{
     public:
-    void Time() {
+    void PrintTime() {
         time_t now = time(0);
         tm *ltm = localtime(&now);
         cout << "time: " <<put_time(ltm, "%I:%M %P") <<endl;
@@ -78,7 +78,6 @@ class Finish {
         cout << "==================================================" << endl;
         cout << "Note: NO REFUND/EXCHANGE after 3 days of purchase." << endl;
         cout << "Thank you for shopping with us!" << endl;
-         o.Time();
         cout << "Please come again!" << endl;
     }
 };
@@ -90,6 +89,6 @@ int main() {
    s.printFooter();
    Finish f;
    f.printFinish();
-   o.Time();
+   o.PrintTime();
    return 0;
 }
